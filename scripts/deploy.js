@@ -1,7 +1,9 @@
+const hre = require("hardhat");
+
 // scripts/deploy.js
 async function main () {
   // We get the contract to deploy
-  const Box = await ethers.getContractFactory('Box');
+  const Box = await hre.ethers.getContractFactory('Box');
   console.log('Deploying Box...');
   const box = await Box.deploy();
   await box.waitForDeployment();

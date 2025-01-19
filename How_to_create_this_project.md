@@ -6,6 +6,8 @@
 ```npm install @openzeppelin/contracts```
 ```npx hardhat node```
 ```npm install --save-dev @nomicfoundation/hardhat-ethers ethers```
+<!-- ```npm install --save-dev @openzeppelin/test-helpers``` -->
+```npm install @nomicfoundation/hardhat-chai-matchers @nomicfoundation/hardhat-network-helpers --save-dev```
 
 
 # Ref: https://docs.openzeppelin.com/learn/deploying-and-interacting

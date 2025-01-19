@@ -1,6 +1,6 @@
 // contracts/Box.sol
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.28;
+pragma solidity 0.8.28;
 
 // Import Ownable from the OpenZeppelin Contracts library
 // document: https://docs.openzeppelin.com/contracts/5.x/
