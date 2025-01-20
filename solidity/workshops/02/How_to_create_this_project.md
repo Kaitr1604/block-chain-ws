@@ -17,3 +17,5 @@
 - Get API Key
 
 # Ref: https://docs.openzeppelin.com/learn/deploying-and-interacting
+
+# search key for eth testnet: arbitrum testnet faucet

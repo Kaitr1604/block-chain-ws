@@ -15,9 +15,9 @@ const config: HardhatUserConfig = {
     },
     // mainnet: { ... }
   },
-  // etherscan: {
-  //   apiKey: etherscanApiKey
-  // }
+  etherscan: {
+    apiKey: etherscanApiKey
+  }
 };
 
 export default config;
