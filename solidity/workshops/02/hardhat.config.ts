@@ -4,7 +4,7 @@ import "@nomicfoundation/hardhat-ethers";
 import "@nomicfoundation/hardhat-chai-matchers";
 import "@nomicfoundation/hardhat-network-helpers";
 
-import { alchemyApiKey, mnemonic } from './secrets.json';
+import { alchemyApiKey, mnemonic, etherscanApiKey } from './secrets.json';
 
 const config: HardhatUserConfig = {
   solidity: "0.8.28",
@@ -13,7 +13,11 @@ const config: HardhatUserConfig = {
       url: `https://eth-sepolia.g.alchemy.com/v2/${alchemyApiKey}`,
       accounts: { mnemonic: mnemonic },
     },
-  }
+    // mainnet: { ... }
+  },
+  // etherscan: {
+  //   apiKey: etherscanApiKey
+  // }
 };
 
 export default config;

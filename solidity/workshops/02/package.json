@@ -7,7 +7,8 @@
     "compile": "npx hardhat compile",
     "deploy": "npx hardhat run --network localhost ./scripts/deploy.js",
     "run": "npx hardhat run --network localhost ./scripts/index.js",
-    "test": "npx hardhat test"
+    "test": "npx hardhat test",
+    "public": "npx hardhat verify --network mainnet DEPLOYED_CONTRACT_ADDRESS 'Constructor argument 1'"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,7 @@
     "@nomicfoundation/hardhat-ethers": "^3.0.8",
     "@nomicfoundation/hardhat-network-helpers": "^1.0.12",
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.12",
     "ethers": "^6.13.5",
     "hardhat": "^2.22.18"
   },
