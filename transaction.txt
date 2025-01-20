@@ -1,0 +1,21 @@
+- Mỗi hoạt động trên blockchain đều là 1 transaction.
++ Gửi/nhận coin.
++ Deploy smart contract lên mạng blockchain.
++ Gọi hàm làm thay đổi dữ liệu blockchain.
+
+- Thông tin trong 1 transaction:
++ From: Địa chỉ gửi.
++ To (Interacted with): Địa chỉ nhận (Người nhận hay contract)
++ Gas Price
++ Gas Limit & Usage by Txn
++ Gas Used by transaction (used by validator, minner)
++ Gas fees
++ Value: số lượng token
++ Input data: Params khi gọi hàm được mã hoá. Xử lý bởi ABI
+
+- Life cycle:
+1. Build 1 transaction gồm đủ các trường dử liệu
+2. Dùng private key để sign transaction đó.
+3. Send transaction đó lên blockchain.
+4. Chờ verify tính hợp lệ (validator node hoặc minner node)
+5. Ghi vào mạng nếu hợp lệ.

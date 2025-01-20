@@ -1,0 +1,7 @@
+- Phí gas dùng để giới hạn, chông spam transaction.
+- Người ký transaction phải trả phí gas
+- Trả cho người mà đưa được block chứa transaction lên mạng (validator, minner)
+- Gas được tính như thế nào:
++ Phụ thuộc vào độ phức tạp của transaction.
++ 1 Hàm sẽ bao gồm tất các các elementary Instruction, tổng phí của các elementary Instruction = tổng Gas
++ Phí gas = tổng Gas * Gas price trên Ethereum.

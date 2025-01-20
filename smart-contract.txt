@@ -1,0 +1,22 @@
+- Là các ứng dụng chạy trên block chain thông qua EVM (Ethereum virtual machine)
+- Nên nhỏ không tới vài ngàn dòng lệnh (tách nhỏ thành nhiều contract nếu quá dài)
+
+- Đặc tính
++ Code của contract là immutable không thể chỉnh sửa bởi bất kỳ ai sau khi deploy
++ Không ai quản lý
++ Không cần server (lên mạng là tự chạy, không ai can thiệp được nữa)
++ Gửi / nhận tiền tệ rất dể dàng, không cần xác minh thanh toans thông qua paypal và hệ thống ngân hàng
+- Điểm yếu:
++ Phí cao (phí validator, phí khác)
++ Chậm (đào lâu)
++ Khả năng lưu trử bị giới hạn (dữ liệu càng nhiều, phí gas càng cao)
++ Về bản chất không thể gọi API bên ngoài. Tuy nhiên có một số nhà phát triển đang giải quyết vấn đề này.
+* Oracle / Chainlink hổ trợ xử lý cung cấp các dử liệu bên ngoài bằng cách sử dụng các internal transaction.
+
+- Build smart contract.
+1. Code smart contract - Ngôn ngữ: solidity, viber, rush, haskell,..
+2. Compile code thành EVM bytecode.
+3. Gửi transaction contract creation + EVM bytecode (chuổi code mà EVM có thể hiểu được) lên blockchain
+4. Chờ transaction được đào bởi validator hay minner
+
+- Công cụ xem dữ liệu block chain: Block explorer của block chain. (BSCscan, etherscan,....)

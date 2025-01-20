@@ -1,0 +1,13 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.18"
+  },
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "start:local": "npx hardhat node",
+    "deploy:local": "npx hardhat ignition deploy ./ignition/modules/Lock.ts --network localhost",
+    "test": "npx hardhat test"
+  }
+}

@@ -1,0 +1,15 @@
+DApp là các ứng dựng hổ trợ người dùng thực hiện giao tiếp với mạng block chain thông qua kết nối ví.
+Cấu trúc:
+
+DApp(FE) --> <communicate> --> wallet ---> smart contract.
+1. Viết smart contract, deploy lên blockchain.
+2. Tạo FE
+3. Giao tiếp với ví
+4. Giao tiếp với smart contract thông qua web hoặc ethersjs
+
+- Các bước viết DApp
+1. Xác định logic smart contract.
+2. Code smart contract
+3. Test smart contract (quan trọng)
+4. Deploy testnet.
+5. Deploy mainnet.

@@ -1,0 +1,2 @@
+Crypto graphic hash là một phương pháp hash giúp hash data không phân biệt kích cở thành 1 chuổi mã có độ dài xác định theo quy định của crypto.
+Crypto graphic hash tạo định danh cho các đối tướng crypto.

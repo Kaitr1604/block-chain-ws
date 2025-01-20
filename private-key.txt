@@ -1,0 +1,5 @@
+private key => <Elliptic-curve cryptography> => public key (128 ký tự) => <Keccak 256>
+=> public key (64 ký tự) => <Lấy 42 ký tự cuối> => <thêm "0x" đằng trước> => địa chỉ
+- Các loại address:
++ EOA: External Of Account: địa chỉ ví
++ Contract address: Control by code của smart contract, không có private key

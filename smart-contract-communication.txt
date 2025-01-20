@@ -1,0 +1,1 @@
+- Dùng thư viện để gọi hàm của smart contract.

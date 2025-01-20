@@ -1,0 +1,2 @@
+Địa chỉ của bên thứ 3 (ví) cung cấp cho mạng block chain, quản lý private key.
+Mnemonic phrase: Cụm 12 từ khoá dùng để truy cập private key.
