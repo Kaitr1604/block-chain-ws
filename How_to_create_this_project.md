@@ -8,6 +8,11 @@
 ```npm install --save-dev @nomicfoundation/hardhat-ethers ethers```
 <!-- ```npm install --save-dev @openzeppelin/test-helpers``` -->
 ```npm install @nomicfoundation/hardhat-chai-matchers @nomicfoundation/hardhat-network-helpers --save-dev```
+```npx mnemonics```
 
+# GO TO: https://dashboard.alchemy.com
+- Create account
+- Create project
+- Get API Key
 
 # Ref: https://docs.openzeppelin.com/learn/deploying-and-interacting
